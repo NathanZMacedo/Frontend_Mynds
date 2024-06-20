@@ -59,19 +59,21 @@
     line-height: 1.8em;
     justify-content: center;
     box-sizing: border-box;
+    text-align: center;
 
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: white;
+    padding-left: 20%;
 }
 
 .card-content-Web {
     margin-right: 3%;
     margin-top: 20%;
-    width: 200px;
+    width: 350px;
 
-    background-color: green;
+    background-color: #003585;
     padding: 15px;
     border-radius: 20px;
 }
@@ -84,9 +86,9 @@
 .card-content-game {
     margin-right: 3%;
     margin-top: 10%;
-    width: 200px;
+    width: 350px;
 
-    background-color: green;
+    background-color: #003585;
     padding: 15px;
     border-radius: 20px;
 }
@@ -97,9 +99,9 @@
 }
 
 .card-content-robotica {
-    width: 200px;
+    width: 350px;
 
-    background-color: green;
+    background-color: #003585;
     padding: 15px;
     border-radius: 20px;
 }
@@ -156,6 +158,7 @@
     height: auto;
 }
 .cursos-button {
+    width: 190px;
     border: #c0ff72 solid 6px;
     border-radius: 40px;
     color: black;

@@ -1,8 +1,163 @@
-.home img{
-    width: 500px;
+.background {
+    width: 100%;
+    height: 100%;
 }
 
-.home div a{
+#img1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.home img {
+    flex-direction: column;
+    width: 500px;
+    display: flex;
+}
+.proposta-img{
+    margin-left: 15%;
+}
+
+
+.StyleVerde {
+    color: #c0ff72;
+}
+
+.proposta {
+    padding: 12px;
+    margin-left: 15%;
+    margin-right: 50%;
+    flex-direction: column;
+    -webkit-text-size-adjust: 100%;
+
+    display: flex;
+
     color: white;
     text-decoration: none;
+    align-items: center;
+    font-family: 'Quicksand', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    text-align: justify;
+    line-height: 1.8em;
+    box-sizing: border-box;
+}
+
+.button {
+    border: #c0ff72 solid 6px;
+    border-radius: 40px;
+    color: white;
+    padding: 10px;
+}
+
+.card {
+    /* Texto */
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    font-family: 'Quicksand', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    line-height: 1.8em;
+    justify-content: center;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+}
+
+.card-content-Web {
+    margin-right: 3%;
+    margin-top: 20%;
+    width: 200px;
+
+    background-color: green;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.card-image-web {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-content-game {
+    margin-right: 3%;
+    margin-top: 10%;
+    width: 200px;
+
+    background-color: green;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.card-image-game {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-content-robotica {
+    width: 200px;
+
+    background-color: green;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.card-image-robotica {
+    max-width: 100%;
+    height: auto;
+}
+.porque-mynds{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    font-family: 'Quicksand', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    line-height: 1.8em;
+    text-align: justify;
+    justify-content: center;
+    box-sizing: border-box;
+
+    margin-left: 50%;
+    margin-right: 10%;
+}
+.porque-title {
+    font-size: 3rem;
+}
+.porque-subtitle{
+    font-size: 1.4rem;
+    color: #c0ff72;
+}
+
+.cursos{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    font-family: 'Quicksand', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    line-height: 1.8em;
+    justify-content: center;
+    box-sizing: border-box;
+
+    background-color: white;
+    padding-left: 10%;
+}
+.cursos-title{
+    font-size: 3rem;
+    color: #003585;
+}
+.cursos-subtitle {
+    font-size: 1.4rem;
+    color: #c0ff72;
+}
+.cursos img{
+    width: 500px;
+    height: auto;
+}
+.cursos-button {
+    border: #c0ff72 solid 6px;
+    border-radius: 40px;
+    color: black;
+    padding: 10px;
 }

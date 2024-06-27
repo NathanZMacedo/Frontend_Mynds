@@ -9,9 +9,9 @@
     font-weight: 600;
     line-height: 1.8em;
     box-sizing: border-box; 
-    background-color: blue;
+    background-color: #003585;
 
-    
+    padding-right: 20px;
 } 
 .Links a{
     text-decoration: none;

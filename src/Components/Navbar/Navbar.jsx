@@ -1,6 +1,8 @@
 import React from 'react'
 import './Navbar.css'
 import { Link, useNavigate } from 'react-router-dom'
+import { FaSearch } from "react-icons/fa";
+
 
 function Navbar() {
   return (
@@ -9,7 +11,7 @@ function Navbar() {
             <div className='Links'>
                 <Link to='/'>Home</Link>
                 <Link to='/QuemSomos'>Quem Somos</Link>
-                <Link to='/Cursos'>Cursos</Link>
+                <FaSearch color='white'/>
             </div>
         </nav>
     </div>

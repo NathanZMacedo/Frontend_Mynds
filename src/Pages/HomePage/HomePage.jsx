@@ -5,6 +5,10 @@ function HomePage() {
   return (
     <div className='home'>
 
+      <div className='imgcompleta'>
+        <img src="http://mynds.com.br/wp-content/uploads/2023/11/Perfil-com-circulo.png" alt="" />
+      </div>
+
       <div className='proposta-img'>
         <img src="http://mynds.com.br/wp-content/uploads/2023/11/Logomyndstransparente-3.png" alt="" />
       </div>
@@ -49,13 +53,18 @@ function HomePage() {
         </div>
       </div>
 
-      <div className='porque-mynds'>
-        <h3 className='porque-subtitle'>Por Que A</h3>
-        <h1 className='porque-title'>Mynds?</h1>
-        <p> <span className='StyleVerde'>Aprendizado Divertido:</span> Acreditamos que a aprendizagem deve ser divertida e envolvente. Nossas aulas são projetadas para despertar a curiosidade e a imaginação dos alunos, enquanto eles adquirem habilidades valiosas.</p>
-        <p> <span className='StyleVerde'>Mãos à Obra:</span> Nada supera a experiência prática. Os alunos terão a oportunidade de criar projetos reais, desde programas de computador até robôs funcionais, permitindo que apliquem o que aprenderam de maneira tangível.</p>
-        <p> <span className='StyleVerde'>Preparação para o Futuro:</span> A programação e a robótica são habilidades essenciais no mundo atual. Ao aprenderem desde cedo, os alunos estarão melhor preparados para enfrentar os desafios tecnológicos do amanhã.</p>
-        <p> <span className='StyleVerde'>Ambiente de Apoio:</span> Nossa escola oferece um ambiente acolhedor e de apoio, onde os alunos podem aprender sem medo de cometer erros. Celebramos o processo de aprendizagem e o crescimento constante.</p>
+      <div className='porque-mynds2'>
+        <img src="http://mynds.com.br/wp-content/uploads/2023/11/Perfil-com-circulo.png" alt="" />
+        <div className='porque-mynds'>
+
+
+          <h3 className='porque-subtitle'>Por Que A</h3>
+          <h1 className='porque-title'>Mynds?</h1>
+          <p> <span className='StyleVerde'>Aprendizado Divertido:</span> Acreditamos que a aprendizagem deve ser divertida e envolvente. Nossas aulas são projetadas para despertar a curiosidade e a imaginação dos alunos, enquanto eles adquirem habilidades valiosas.</p>
+          <p> <span className='StyleVerde'>Mãos à Obra:</span> Nada supera a experiência prática. Os alunos terão a oportunidade de criar projetos reais, desde programas de computador até robôs funcionais, permitindo que apliquem o que aprenderam de maneira tangível.</p>
+          <p> <span className='StyleVerde'>Preparação para o Futuro:</span> A programação e a robótica são habilidades essenciais no mundo atual. Ao aprenderem desde cedo, os alunos estarão melhor preparados para enfrentar os desafios tecnológicos do amanhã.</p>
+          <p> <span className='StyleVerde'>Ambiente de Apoio:</span> Nossa escola oferece um ambiente acolhedor e de apoio, onde os alunos podem aprender sem medo de cometer erros. Celebramos o processo de aprendizagem e o crescimento constante.</p>
+        </div>
       </div>
 
       <div className='cursos'>
@@ -69,24 +78,7 @@ function HomePage() {
         </div>
       </div>
 
-      <div className='contato'>
-        <div className='contato-card'>
-          <p className='contato-title'></p>
 
-          <div className='whatsapp'>
-            <img src="" alt="" />
-            (12) 99193-6532
-          </div>
-
-          <div className='local'>
-            Av. John Fitzgerald Kenedy, 50 - Jardim das Nações, Taubaté - SP, 12030-200
-          </div>
-
-          <div className="email">
-            <a> mynds@mynds.com.br </a>
-          </div>
-        </div>
-      </div>
 
     </div>
   )

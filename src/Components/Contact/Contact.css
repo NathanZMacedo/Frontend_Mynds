@@ -1,0 +1,37 @@
+.contato{
+    display: flex;
+    align-items: center;
+    justify-content: space-around   ;
+    flex-direction: column;
+    
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    font-family: 'Quicksand', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    line-height: 1.8em;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.local img{
+    width: 20px;
+    height: auto;
+    color: white;
+}
+.FiAtSign{
+    width: 20px;
+    height: auto;
+}
+.FaWhatsapp{
+    width: 20px;
+    height: auto;
+}
+.HiMapPin{
+    width: 20px;
+    height: auto;
+}
+
+.contato-title{
+    color: #c0ff72;
+    font-size: 2rem;
+}
